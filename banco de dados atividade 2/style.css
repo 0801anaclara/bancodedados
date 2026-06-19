@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(133, 175, 239); 
+}
+header{
+    background-color: rgb(246, 129, 230);
+}
+nav{
+    background-color: rgb(173, 249, 249);
+}
+main{
+    background-color: rgb(237, 229, 144);
+}
+footer{
+    background-color: rgb(177, 241, 194);
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 10px 30px 10px;
+    color:rgb(0, 0, 0)
+}
+.menu li a:hover{
+    background-color: rgb(95, 161, 228);
+    border-radius: 10px;
+    color:cadetblue
+}
