@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Funcionario</title>
+</head>
+<body>
+    <h1>Cadastro de Funcionario</h1>
+    <form action="insere_func_db.php" method="POST">
+        <input type="text" name="nome" placeholder="Nome do Funcionario"><br>
+        <input type="text" name="user" placeholder="Usuario"><br> 
+        <input type="password" name="senha" placeholder="Senha"><br>
+        <select name="cargo">
+            <option value="secretaria">Secretaria</option>
+            <option value="professor">Professor</option>
+            <option value="diretoria">Diretoria</option>
+       </select>
+       <input type="submit" value="Cadastrar">
+    </form>
+    
+</body>
+</html>
